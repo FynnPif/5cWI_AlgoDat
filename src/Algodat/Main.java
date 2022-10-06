@@ -1,4 +1,4 @@
-package com.company;
+package Algodat;
 
 import java.util.Scanner;
 
