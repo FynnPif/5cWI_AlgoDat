@@ -1,8 +1,8 @@
-package Algodat;
+package Algodat.A_Einstieg;
 
 import java.util.Scanner;
 
-public class Main {
+public class Osterrechner {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -15,7 +15,13 @@ public class Main {
         int W = (N + Q + 31 - M) % 7;
         int P = 25 - M - W;
 
-        System.out.println("Der naechste Ostersonntag ist am " + P + ".April.");
+        if (P>0){
+            System.out.println("Der naechste Ostersonntag ist am " + P + ".April.");
+        }else {
+            int x = P + 31;
+            System.out.println("Der naechste Ostersonntag ist am " + x + ".März.");
+        }
+
 
     }
 }
