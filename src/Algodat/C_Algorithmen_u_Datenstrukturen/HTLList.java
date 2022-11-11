@@ -1,7 +1,7 @@
-package Algodat.C_Algorithmen_u_Datenstrukturen.LinkedList;
+package Algodat.C_Algorithmen_u_Datenstrukturen;
 
 public interface HTLList {
     public void add(int value);
-    public void get(int index);
+    public int get(int index);
     public void remove(int index);
 }

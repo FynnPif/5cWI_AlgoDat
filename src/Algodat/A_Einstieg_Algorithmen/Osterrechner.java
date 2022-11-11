@@ -1,4 +1,4 @@
-package Algodat.A_Einstieg;
+package Algodat.A_Einstieg_Algorithmen;
 
 import java.util.Scanner;
 
