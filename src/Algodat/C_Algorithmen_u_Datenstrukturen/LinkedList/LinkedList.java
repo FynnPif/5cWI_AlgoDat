@@ -33,14 +33,16 @@ public class LinkedList implements HTLList {
     @Override
     public void remove(int index) {
         Node actual = root;
+        if (index == 0){
+            root = root.getNext();
+            return;
+        }
+
         for (int i =0; i<index -1 ;i++){
             actual = actual.getNext();
         }
-        actual.setNext(null);
 
-        if(actual.getNext() == null) {
-            actual.setNext(actual.getNext().getNext());
-        }
+        actual.setNext(actual.getNext().getNext());
 
     }
 }

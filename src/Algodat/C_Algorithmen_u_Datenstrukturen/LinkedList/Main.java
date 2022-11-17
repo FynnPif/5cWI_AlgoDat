@@ -9,8 +9,8 @@ public class Main {
         ll.add(10);
         ll.add(25);
         ll.add(30);
-        ll.remove(4);
-        System.out.println(ll.get(3));
+        ll.remove(2);
+        System.out.println(ll.get(1));
 
 
         System.out.println("hello");
