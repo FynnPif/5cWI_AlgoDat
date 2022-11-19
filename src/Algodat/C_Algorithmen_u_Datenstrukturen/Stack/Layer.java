@@ -8,10 +8,6 @@ public class Layer {
         return value;
     }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
-
     public Layer(int value) {
         this.value = value;
     }
